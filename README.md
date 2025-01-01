@@ -3,8 +3,8 @@
 Welcome to the GUI Projects for Data Structures and Algorithms (DSA)! This repository contains two interactive GUI applications that demonstrate important DSA concepts.
 
 ## Table of Contents
-1. [Maze Making and Solving Algorithm](making and solving algorithm/Maze Making Algorithm)
-2. [Sorting Algorithms]()
+1. Maze Making and Solving Algorithm
+2. Sorting Algorithms
 
 ## Maze Making and Solving Algorithm
 
