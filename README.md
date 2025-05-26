@@ -1,11 +1,21 @@
 # 🧩 Sudoku Mastermind: Play, Solve, and Create Puzzles 🚀
 
-[![GitHub License](https://img.shields.io/github/license/YourUsername/Sudoku?color=blue)](https://github.com/YourUsername/Sudoku)
+[![GitHub License](https://img.shields.io/github/license/TechnicalCoderji/GUI-Projects-for-DSA?color=blue)](https://github.com/YourUsername/Sudoku)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-yellowgreen)](https://www.python.org/)
 
 **A polished Sudoku experience** with an intuitive GUI for playing, solving, and designing puzzles. Save your progress, tackle AI-generated challenges, or craft your own Sudoku masterpiece!
 
-![Sudoku GUI Demo](img/screenshot.png) *(Replace with your actual screenshot in the `img/` folder)*
+![Sudoku GUI Demo]
+![MAIN GUI]
+(img/s1.png)
+![Open File]
+(img/s4.png)
+![Save File]
+(img/s5.png)
+![SUDOKU Generator]
+(img/s2.png)
+![SUDOKU Solver]
+(img/s3.png)
 
 ---
 
@@ -47,7 +57,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YourUsername/Sudoku.git
+   git clone https://github.com/TechnicalCoderji/GUI-Project-for-DSA/SUDOKU.git
    cd Sudoku
    ```
 
@@ -66,7 +76,7 @@
 ## 📂 File Structure
 
 ```
-Sudoku/
+SUDOKU/
 ├── game_board/           # Pre-saved .sudoku puzzles
 ├── img/                  # GUI assets (buttons, icons, fonts)
 │
@@ -111,4 +121,4 @@ Free to use, modify, and distribute. Attribution appreciated but not required.
 ---
 
 🌟 **Enjoy Sudoku? Leave a star!**  
-🐞 **Issues?** Report them [here](https://github.com/YourUsername/Sudoku/issues).
+🐞 **Issues?** Report them [here](https://github.com/TechnicalCoderji/GUI-Projects-for-DSA/SUDOKU/issues).
