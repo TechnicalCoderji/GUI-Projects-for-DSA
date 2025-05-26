@@ -7,15 +7,15 @@
 
 ![Sudoku GUI Demo]
 ![MAIN GUI]
-(img/s1.png)
+(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s1.png)
 ![Open File]
-(img/s4.png)
+(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s4.png)
 ![Save File]
-(img/s5.png)
+(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s5.png)
 ![SUDOKU Generator]
-(img/s2.png)
+(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s2.png)
 ![SUDOKU Solver]
-(img/s3.png)
+(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s3.png)
 
 ---
 
