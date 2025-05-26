@@ -5,17 +5,15 @@
 
 **A polished Sudoku experience** with an intuitive GUI for playing, solving, and designing puzzles. Save your progress, tackle AI-generated challenges, or craft your own Sudoku masterpiece!
 
-![Sudoku GUI Demo]
-![MAIN GUI]
-(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s1.png)
-![Open File]
-(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s4.png)
-![Save File]
-(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s5.png)
-![SUDOKU Generator]
-(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s2.png)
-![SUDOKU Solver]
-(https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s3.png)
+### 🧩 Sudoku GUI
+
+<p align="center">
+  <img src="https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s1.png" alt="Sudoku GUI Demo" width="150"/>
+  <img src="https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s4.png" alt="Open File" width="150"/>
+  <img src="https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s5.png" alt="Save File" width="150"/>
+  <img src="https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s2.png" alt="SUDOKU Generator" width="150"/>
+  <img src="https://github.com/TechnicalCoderji/SUDOKU/blob/main/img/s3.png" alt="SUDOKU Solver" width="150"/>
+</p>
 
 ---
 
