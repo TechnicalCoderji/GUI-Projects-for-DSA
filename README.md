@@ -1,30 +1,114 @@
-# GUI Projects for Data Structures and Algorithms (DSA)
+# 🧩 Sudoku Mastermind: Play, Solve, and Create Puzzles 🚀
 
-Welcome to the GUI Projects for Data Structures and Algorithms (DSA)! This repository contains two interactive GUI applications that demonstrate important DSA concepts.
+[![GitHub License](https://img.shields.io/github/license/YourUsername/Sudoku?color=blue)](https://github.com/YourUsername/Sudoku)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-yellowgreen)](https://www.python.org/)
 
-## Table of Contents
-1. Maze Making and Solving Algorithm
-2. Sorting Algorithms
+**A polished Sudoku experience** with an intuitive GUI for playing, solving, and designing puzzles. Save your progress, tackle AI-generated challenges, or craft your own Sudoku masterpiece!
 
-## Maze Making and Solving Algorithm
+![Sudoku GUI Demo](img/screenshot.png) *(Replace with your actual screenshot in the `img/` folder)*
 
-### Description
-This project is an interactive application where users can create mazes and visualize algorithms solving them. Users can set start and end points and watch how various pathfinding algorithms navigate through the maze.
+---
 
-### Features
-- **Maze Creation**: Users can design mazes using algorithms.
-- **Pathfinding Algorithms**: Visualization of algorithms like Left-Right Hand(Wall) Follower, Deadend Fill, Random Mouse etc.
-- **Interactive UI**: User-friendly interface to set start and end points and obstacles.
+## 📦 Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [File Structure](#-file-structure)
+- [Algorithms](#-algorithms)
+- [License](#-license)
+- [Acknowledgements](#-acknowledgements)
 
-## Sorting Algorithms
+---
 
-### Description
-This project provides a visual demonstration of various sorting algorithms. Users can see how different algorithms sort a list of elements, observing the steps and comparisons made during the process.
+## ✨ Features
 
-### Features
-- **Visualization of Sorting Algorithms**: Includes Bubble Sort, Merge Sort, Quick Sort, and more.
-- **Step-by-Step Process**: Shows the operations performed by each algorithm in real-time.
-- **Interactive UI**: User-friendly interface to select and visualize different sorting algorithms.
+### 🎮 **Interactive GUI** (`main.py`)
+- **Play Sudoku** with tools like:
+  - ✏️ **Pens**: White, Yellow, Orange
+  - 🧹 **Erase**, **Undo**, **Reset**
+  - 💾 **Save/Load** puzzles (`.sudoku` format)
+- **Design Mode**: Build custom Sudoku boards from scratch.
 
-## License
-This project is licensed under the MIT License.
+### ⚙️ **Under the Hood**
+- **5 Solving Algorithms** (`solver.py`):
+  1. Brute Force
+  2. Backtracking
+  3. Advanced Backtracking
+  4. Constraint Propagation
+  5. **DLX (Dancing Links)** 🚀
+- **Smart Generator** (`generator.py`): 
+  - Creates puzzles in 5 difficulties: **Easy -> Medium -> Hard -> Expert -> Legendary**.
+  - Uses **Hybrid Backtracking with Constraint Propagation (HBCPCP)**.
+- **Save System** (`save_loader.py`): Securely stores puzzles in `.sudoku` files.
+
+---
+
+## 📥 Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/YourUsername/Sudoku.git
+   cd Sudoku
+   ```
+
+2. **Install Pygame** (for GUI):
+   ```bash
+   pip install pygame
+   ```
+
+3. **Launch the GUI**:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 📂 File Structure
+
+```
+Sudoku/
+├── game_board/           # Pre-saved .sudoku puzzles
+├── img/                  # GUI assets (buttons, icons, fonts)
+│
+├── algorithm.py          # Core logic for solving/generating
+├── generator.py          # Implements HBCPCP difficulty stages
+├── solver.py             # All 5 solving algorithms
+├── save_loader.py        # Handles .sudoku file I/O
+├── main.py               # Pygame GUI (play/design mode)
+└── tools.py              # GUI utilities (buttons, grids, colors)
+```
+
+---
+
+## 🧠 Algorithms
+
+### 🔍 **Solving** (`algorithm.py`)
+- **Brute Force**: Tests all possibilities (for small grids).
+- **Backtracking**: Recursive depth-first search.
+- **Advanced Backtracking**: Optimized cell selection.
+- **Constraint Propagation**: Eliminates possibilities iteratively.
+- **DLX (Dancing Links)**: Solves "exact cover" Sudokus rapidly.
+
+### 🎲 **Generation** (`generator.py`)
+- **Hybrid Backtracking with Constraint Propagation (HBCPCP)**:
+  1. **Fill Grid**: Backtracking with smart pruning.
+  2. **Controlled Removal**: Delete numbers while ensuring solvability.
+  3. **Difficulty Tuning**: Adjust ambiguity (Easy = 40+ clues, Legendary = <25 clues).
+
+---
+
+## 📜 License
+
+**MIT License**  
+Free to use, modify, and distribute. Attribution appreciated but not required.
+
+---
+
+## 🙏 Acknowledgements
+- GUI icons by [Flaticon](https://www.flaticon.com).
+- Pygame community for graphics tools.
+
+---
+
+🌟 **Enjoy Sudoku? Leave a star!**  
+🐞 **Issues?** Report them [here](https://github.com/YourUsername/Sudoku/issues).
